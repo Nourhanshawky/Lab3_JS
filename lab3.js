@@ -1,74 +1,74 @@
 /////////////////////////Log In ////////////////////////////
-// while(true){
-// var username = window.prompt("Enter your UserName");
-// var pass  = window.prompt("Enter your Password");
+while(true){
+var username = window.prompt("Enter your UserName");
+var pass  = window.prompt("Enter your Password");
 
 
-// if(username == "admin"){
-//     if(pass=="421$$"){
-//     window.alert("Welcome login success :)");}
-//     else{
-//         window.alert("You Entered wrong Password :(");
-//     }
-// }
-// else{
-//     window.alert("You Entered wrong UserName :(")
-// }
-// if(username == null) break;
-// }
+if(username == "admin"){
+    if(pass=="421$$"){
+    window.alert("Welcome login success :)");}
+    else{
+        window.alert("You Entered wrong Password :(");
+    }
+}
+else{
+    window.alert("You Entered wrong UserName :(")
+}
+if(username == null) break;
+}
 
 
 ////////////////////////Calculations//////////////////////////
 
 
-// var num1=Number(window.prompt("Enter first number : "));
-// var operator=window.prompt("Enter the operation: ");
-// var num2=Number(window.prompt("Enter secound number: "));
-// var res;
+var num1=Number(window.prompt("Enter first number : "));
+var operator=window.prompt("Enter the operation: ");
+var num2=Number(window.prompt("Enter secound number: "));
+var res;
 
-// while(true){
+while(true){
 
-// if(operator == "+" || operator == "sum" ){
-//     var res = num1 + num2 ;
-//     window.alert("The Result is : " + res);
-// }
-// else if(operator == "*" || operator =="multi"){
-//     res = num1 * num2 ;
-//     window.alert("The Result is : " + res);
-// }
-// else if(operator == "-" || operator =="subtract"){
-//     res = num1 - num2 ;
-//     window.alert("The Result is : " + res);
-// }
-// else if(operator == "/" || operator =="division"){
-//     res = num1 / num2 ;
-//     window.alert("The Result is : " + res);
-// }
-// else if(operator == "%" || operator =="moduls"){
-//     res = num1 % num2 ;
-//     window.alert("The Result is : " + res);
-// }
-// else{
-//     window.alert("please enter an allowed operator");
-// }
-// num1=res;
-// operator = window.prompt("Enter the operation: ");
-// num2 = Number(window.prompt("Enter second number: "));
+if(operator == "+" || operator == "sum" ){
+    var res = num1 + num2 ;
+    window.alert("The Result is : " + res);
+}
+else if(operator == "*" || operator =="multi"){
+    res = num1 * num2 ;
+    window.alert("The Result is : " + res);
+}
+else if(operator == "-" || operator =="subtract"){
+    res = num1 - num2 ;
+    window.alert("The Result is : " + res);
+}
+else if(operator == "/" || operator =="division"){
+    res = num1 / num2 ;
+    window.alert("The Result is : " + res);
+}
+else if(operator == "%" || operator =="moduls"){
+    res = num1 % num2 ;
+    window.alert("The Result is : " + res);
+}
+else{
+    window.alert("please enter an allowed operator");
+}
+num1=res;
+operator = window.prompt("Enter the operation: ");
+num2 = Number(window.prompt("Enter second number: "));
 
-// if(operator==null) break;
-// }
+if(operator==null) break;
+}
 
 ////////////////////Part2_Lap1/////////////////////
-// var sum=0;
-// var numCount =Number(window.prompt("How many numbers do you want to entered ? "));
+var sum=0;
+var numCount =Number(window.prompt("How many numbers do you want to entered ? "));
 
-// for (let i = 0; i < numCount; i++) {
-//     num=Number(window.prompt(`Enter number ${i+1} : `));
-//     sum+=num;
-// }
-// window.alert("The sum of the numbers is "+ sum);
-// var avg=sum/numCount
-// window.alert("The Average of the numbers is "+ avg);
+for (let i = 0; i < numCount; i++) {
+    num=Number(window.prompt(`Enter number ${i+1} : `));
+    sum+=num;
+}
+window.alert("The sum of the numbers is "+ sum);
+var avg=sum/numCount
+window.alert("The Average of the numbers is "+ avg);
 
 ///////////////////////////Lab2/////////////////////
 
