@@ -63,7 +63,7 @@ var sum=0;
 var numCount =Number(window.prompt("How many numbers do you want to entered ? "));
 
 for (let i = 0; i < numCount; i++) {
-    num=Number(window.prompt(`Enter number ${i+1} : `));
+  var num=Number(window.prompt(`Enter number ${i+1} : `));
     sum+=num;
 }
 window.alert("The sum of the numbers is "+ sum);
